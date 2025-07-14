@@ -8,3 +8,4 @@ sphinx-a4doc>=1.6.0
 
 # Sphinx 2.1.0 is the oldest version that accepts a lexer class in add_lexer()
 sphinx>=2.1.0, <6.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
